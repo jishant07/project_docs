@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://buddycss-cc55.kxcdn.com/downloads/1.0.7/css/buddy.plugins.min.css">
+	<link rel="stylesheet" type="text/css" href="https://buddycss-cc55.kxcdn.com/downloads/1.0.7/css/buddy.min.css">
+	<script type="text/javascript" src="https://buddycss-cc55.kxcdn.com/downloads/1.0.7/js/buddy.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<style type="text/css">
+		.center
+		{
+  			padding:2em;
+  			border-radius:5px;
+  			-webkit-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+			-moz-box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+			box-shadow: 10px 10px 19px 0px rgba(0,0,0,0.75);
+		}
+		.container
+		{
+			width:50%;
+			background:white;
+		}
+		body
+		{
+			background:url('https://images.unsplash.com/photo-1543946366-8d8fb685dde9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size:cover;
+		}
+	</style>
+</head>
+<body>
+	<div style="text-align:center;margin:auto;">
+		<h1 style="color:black;font-family: 'Inconsolata', monospace;">Login Page</h1>
+	</div>
+    <br>
+    <br>
+    <br>
+	<div class="container center">
+            <form action="check" method="post">
+			<div class="input-animation">
+				<label form="input">Username</label>
+				<input type="email" name="uname" autofocus />
+			</div>
+			<br>
+			<br>
+			<div class="input-animation">
+				<label form="input">Password</label>
+				<input type="password" name="pwd" />
+			</div>
+			<br>
+			<br>
+			<button style="text-align:center;margin:auto;" class="btn bg-blue inverse">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
